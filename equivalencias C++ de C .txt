@@ -26,3 +26,8 @@ CIN  -> console in
 	int A;
 	float B; 
 	double C;
+
+	cin >> A; //leo primero A
+	cin >> B >> C; //leo primero B y despues C
+
+	// lo bueno que no se tienen que acordar el formato
