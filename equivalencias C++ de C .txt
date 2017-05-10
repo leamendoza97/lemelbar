@@ -1,0 +1,28 @@
+
+Vectores o arreglos;
+En C se declaran -> int v[123]; -> tipo nombre[dimension];
+en C++ se declaran -> vector<tipo> nombre;
+tambien se pueden declarar vector<tipo> nombre(dimension, valor inicial);
+Despues por ejemplo para acceder al elemento i del vector nombre hacemos nombre[i] como haciamos en C
+
+Arreglos de chars en C, string en C++ :D
+En C , bueno ya saben como se trabajan, ustedes sabran, con el paso de los años me olvide de como se trabaja en C los string
+pero en C++ , lo basico es lo siguiente
+string nombre; -> declarar string vacio
+string nombre("valor inicial"); -> declarar string con valor inicial
+string nombre = "valor inicial"; idem anterior
+
+algunas propiedades -> nombreString.length(); funcion que nos devuelve la cantidad de caracteres que hay
+nombreString += " otro string"; -> le suma ese string al final
+nombreString.substr(posicion, tamaño); -> nos devuelve un NUEVO string recortado desde la posicion indicada hasta completar el tamaño indicado
+
+
+COUT -> console out
+	Es como printf(""), nada mas que en vez de ser una funcion es un buffer, para imprimir datos se hace con el opèrador <<, ejemplo
+	cout << "Un string : un caracter -> " << 'c' << " un numero entero " << 23 << " un numero real " << 23.398 << " y el fin de linea -> " << endl;
+
+CIN  -> console in
+	Idem anterior nada mas que los piquitos van para el otro lado osea >>, ejemplo
+	int A;
+	float B; 
+	double C;
